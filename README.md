@@ -30,8 +30,8 @@ name_file_zip="${name_folder}_$(date +%Y-%m-%d)_$(date +%H-%M).tar.gz"
 (cd "$(dirname "$source_folder")" && tar -czvf "$name_file_zip" --exclude=".git" --exclude="vendor" "$(basename "$source_folder")")
 <br>
 
-#Passo 03
+# Passo 03
 Cole o arquivo na pasta raiz onde deseja compactar a pasta
 
-#Passo 04
+# Passo 04
 Execute o arquivo. Após executar, irá criar o arquivo compactado no diretório anterior. E seja feliz!
